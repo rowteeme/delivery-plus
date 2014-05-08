@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ui.sidebar {
+width: 200px !important;
+}
+.ui.active.right.sidebar {
+margin-left: -200px !important;
+}
+body.pushed {
+margin-right: 200px !important;
+}
+
+@media only screen and (max-width: 700px) {
+	body.pushed {
+margin-left: -200px !important;
+}
+}
+@media only screen and (max-width: 500px) {
+	body.pushed {
+margin-left: -200px !important;
+}
+#feed > .grid > .column {
+height: 100%;
+width: 100%;
+position: absolute;
+}
+}
+body,html{
+  overflow-x: hidden;
+}

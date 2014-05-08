@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="160px" height="151px" viewBox="-8 -8.417 160 151"
+	 overflow="visible" enable-background="new -8 -8.417 160 151" xml:space="preserve">
+<defs>
+</defs>
+<rect x="0.5" y="0.5" fill="none" stroke="#343434" stroke-miterlimit="10" width="111.462" height="128.833"/>
+<polyline fill="#343434" points="111.962,0.5 142.361,105.448 111.962,105.448 "/>
+<text transform="matrix(1 0 0 1 12.9756 42.0151)" fill="#343434" font-family="'Bemio'" font-size="28.2083">MENU</text>
+<line fill="none" stroke="#343434" stroke-miterlimit="10" x1="14.976" y1="70.345" x2="97.486" y2="70.345"/>
+<line fill="none" stroke="#343434" stroke-miterlimit="10" x1="16.062" y1="88.078" x2="79.03" y2="88.078"/>
+<line fill="none" stroke="#343434" stroke-miterlimit="10" x1="14.976" y1="105.448" x2="97.486" y2="105.448"/>
+</svg>

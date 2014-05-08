@@ -1,0 +1,213 @@
+/* ------------------------------- 3. Slider Styles ------------------------------- */
+#fwslider {
+    position: relative;
+    width:100%;
+}
+#fwslider .slide {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    width:100%;
+}
+#fwslider .slide img {
+    width:100%;
+}
+#fwslider .slidePrev {
+   position: absolute;
+    top:50%;
+    left: 230px!important;
+    z-index: 10;
+}
+#fwslider .slidePrev span {
+	background-image: url("../images/img-sprite.png");
+	width: 30px;
+	height: 50px;
+	float: left;
+	background-position: -8px -4px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#fwslider .slideNext {
+    position: absolute;
+    top:50%;
+    right:230px !important;
+    z-index: 10;
+}
+#fwslider .slideNext span {
+    background-image: url("../images/img-sprite.png");
+	width: 30px;
+	height: 50px;
+	float: left;
+	background-position:-35px -4px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#fwslider .timers {
+    height:4px;
+    position: absolute;
+    bottom:15px;
+    right:0;
+    z-index: 3;
+}
+#fwslider .timer {
+    height:4px;
+    width:40px;
+    background-color: #000;
+    float:left;
+    margin-right: 10px;
+}
+#fwslider .progress {
+    height:4px;
+    width:0%;
+    background-color:#b0654d;
+    float:left;
+}
+#fwslider .slide_content {
+    top:0;
+    left:0;
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+#fwslider .slide_content_wrap { /* Slider Text Content Container Style */
+    max-width:50%;
+    margin:7% auto;
+}
+#fwslider .title {  /* Slider Title Style */
+	margin-left:4%;
+	text-transform: capitalize;
+	color: #fff;
+	font-size:2em;
+	background:#29261e;
+	padding:5px 20px;
+	text-align: center;
+	font-style: normal;
+	text-transform:uppercase;
+	border:none;
+}
+#fwslider .description { /* Slider Description Style */
+	color: #FFF;
+	font-size: 1.1em;
+	background: rgba(5, 5, 5, 0.59);
+	padding: 10px;
+	clear: both;
+	text-align: center;
+	line-height: 1.8em;
+}
+#fwslider .description:before {
+	content: url('../images/tooltip.png');
+	position: absolute;
+	top:178px;
+	left:50%;
+	z-index: 9999;
+}
+#fwslider .description:after {
+	background-color: #1798B8;
+	color: #FFF;
+}
+span.link a{
+	color:#999;
+	font-size:0.8125em;
+}
+span.link a:hover{
+	color:#fff;
+}
+/* ------------------------------- 4. Media Query Max Width 1300, Min Width 720 ------------------------------- */
+@media only screen and (min-width:720px) and (max-width: 1300px) {
+	#fwslider .title { font-size:26px; }
+}
+/* ------------------------------- 5. Media Query Max Width 719 ------------------------------- */
+@media only screen and (max-width:719px) {
+	#fwslider .slide_content_wrap { display:none; }
+    #fwslider .timers { display:none; }
+    #fwslider .slide_content {cursor: pointer;}
+}
+@media (max-width:1366px){
+	#fwslider .description:before {
+	    top:193px;
+	}
+}
+@media (max-width:1280px){
+	#fwslider .description:before {
+	    top:193px;
+	}
+}
+@media (max-width:1024px){
+	#fwslider .description:before {
+	    top:130px;
+	}
+	#fwslider .slidePrev {
+		left:160px!important;
+	}
+	#fwslider .slideNext {
+		right:160px !important;
+	}
+	#fwslider .description {
+		font-size: 0.85em;
+	}
+	#fwslider .slide_content_wrap {
+		margin: 5% auto;
+	}
+}
+@media (max-width:800px){
+	#fwslider .description:before {
+	    top:90px;
+	}
+	#fwslider .slidePrev {
+		left:50px!important;
+	}
+	#fwslider .slideNext {
+		right:50px !important;
+	}
+	#fwslider .description {
+		font-size: 0.85em;
+	}
+	#fwslider .slide_content_wrap {
+		margin: 5% auto;
+		max-width: 76%;
+	}
+}
+@media (max-width:768px){
+	#fwslider .description:before {
+	    top:115px;
+	}
+	#fwslider .slidePrev {
+		left:40px!important;
+	}
+	#fwslider .slideNext {
+		right:40px !important;
+	}
+	#fwslider .description {
+		font-size: 0.85em;
+	}
+	#fwslider .slide_content_wrap {
+		margin: 5% auto;
+		max-width: 76%;
+	}
+	#fwslider .slide img {
+		height: 160px;
+	}
+}
+@media (max-width:640px){
+	#fwslider .description:before {
+	    top:115px;
+	}
+	#fwslider .slidePrev {
+		left:40px!important;
+	}
+	#fwslider .slideNext {
+		right:40px !important;
+	}
+	#fwslider .description {
+		font-size: 0.85em;
+	}
+	#fwslider .slide_content_wrap {
+		margin: 5% auto;
+		max-width: 76%;
+	}
+	#fwslider .slide img {
+		height: 160px;
+	}
+}

@@ -1,0 +1,141 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 62.5% 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #404040;
+  background: #F3F0F3;
+  height: 1000px;
+  position: relative;
+  width: 100%;
+  background: url('https://opop.cachefly.net/laughing-planet-food1-photography.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+<<<<<<< HEAD
+=======
+  overflow: hidden;
+>>>>>>> FETCH_HEAD
+/*  min-height: 100%;*/
+}
+
+#hero {
+    text-align: center;
+
+}
+
+#hero h2 {
+    color: #fff;
+}
+
+#results {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+#results p {
+font-size: 2em;
+color: #fff;
+}
+
+h1 {
+    font-family: 'Lobster', Helvetica, sans-serif;
+    font-size: 6em;
+    color: #fff;
+    font-weight: 800;
+    font-style: italic;
+    text-rendering: optimizeLegibility;
+/*    background: rgba(0,0,0,0.5);
+*/}
+
+.kvp {
+    border-bottom: 2px solid #3b598b;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#overlay {
+background: rgba(0,0,0,0.5);
+}
+
+
+
+li {
+    text-align: center;
+    padding: 14px;
+    margin: 6px;
+    background: rgba(0,0,0,0.5) !important;
+    border-radius: 4px;
+    list-style: none;
+}
+
+/* ###### SIDEBAR STYLING + TRANSITIONS ###### */
+
+#site-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background
+}
+
+#site-canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    transition: .3s ease all;
+    padding: 5% 0;
+}
+
+/*#suggestions-sidebar {
+    width: 475px;
+    height: 5000px;
+    position: absolute;
+    top: 0;
+    right: 475px;
+    background: #545454;
+    padding: 15px;
+}
+
+#site-wrapper.show-nav #site-canvas {
+    -webkit-transform: translateX(-475px);
+    transform: translateX(-475px);
+}
+
+#suggestions-sidebar {
+    background: #627FA5;
+    opacity: .5;
+}*/
+
+#search-section {
+    margin: 40px;
+
+}
+
+/* ###### SEARCH BAR STYLING ###### */
+
+#search-section > input[type="search"] {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+i.inverted.search.large.icon {
+    background: #627FA5;
+}
+
+#lead-text {
+    background: rgba(0,0,0,0.5);
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+}

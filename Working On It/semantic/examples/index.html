@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="normalize.css">
+<style type="text/css">
+body,html{
+	width:100%;
+	height:100%;
+	}
+#banner {
+	width: 100%;
+	height:100%;
+	background: #000 url(images/Hamburgers-French-Fries-Tomatoes-Wide.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#navbar{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:60px;
+	background-color: rgba(0,0,0,.5)
+	}
+.section{
+	height:auto;
+	width:100%;
+	min-height:300px;
+	text-align:center;
+	position:relative;
+	}
+#sec1{
+	background-color:#f8f8f8;}
+#sec2{
+	background-color:#282828;}
+#sec3{
+	background-color:#ea5735;}
+.sectionleft{float:left; background-color:#00C951; width:15%; height:200px; position:absolute;}
+.sectionright{float:left; background-color:#0042AF; width:65%; height:200px;  position:absolute;}
+</style>
+
+
+</head>
+
+<body>
+<div id="banner">
+<div id="navbar"></div>
+</div>
+<div class="section" id="sec1">
+	<div class="sectionleft"></div>
+    <div class="sectionright"></div>
+</div>
+<div class="section" id="sec2">
+
+</div>
+<div class="section" id="sec1">
+
+</div>
+<div class="section" id="sec3">
+
+</div>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<!---<script type="text/javascript">
+var bannerImages = new Array();
+var bannerCounter = 0;
+
+function run() {
+    loadBannerImages();
+    runBannerTimer();
+}
+
+function loadBannerImages() {
+    var filePath = "";
+    bannerImages[0] = filePath + "";
+    bannerImages[1] = filePath + "";
+    bannerImages[2] = filePath + "";
+}
+
+function runBannerTimer() {
+    var t=setTimeout(function(){
+        swapBannerImage()
+    },2000);
+}
+
+function swapBannerImage() {
+    $('#banner').fadeOut('slow', function(){
+        $('#banner').css('background', 'url(' + bannerImages[bannerCounter] + ') no-repeat center').fadeIn('slow');
+    });
+
+    bannerCounter++;
+
+    if (bannerCounter >= bannerImages.length) {
+        bannerCounter = 0;
+    }
+
+    runBannerTimer();
+}
+
+run();
+
+
+</script>--->
+</body>
+</html>

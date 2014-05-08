@@ -1,0 +1,12 @@
+
+#################
+External Scripts
+#################
+
+Angular: <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+JQuery: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+Web Font Loader: <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.2/webfont.js"></script>
+
+
